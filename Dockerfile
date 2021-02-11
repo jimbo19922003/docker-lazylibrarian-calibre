@@ -1,12 +1,10 @@
 FROM jeanblanchard/alpine-glibc
-MAINTAINER Thraxis
 
 # set version label
 ARG BUILD_DATE
 ARG VERSION
 LABEL build_version="Thraxis' version:- ${VERSION} Build-date:- ${BUILD_DATE}"
 
-ENV GLIBC_VERSION 2.26-r0
 ENV CALIBRE_INSTALLER_SOURCE_CODE_URL https://raw.githubusercontent.com/kovidgoyal/calibre/master/setup/linux-installer.py
 ENV CALIBRE_CONFIG_DIRECTORY="/config/calibre/"
 ENV CALIBRE_TEMP_DIR="/config/calibre/tmp/"
