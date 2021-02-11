@@ -1,4 +1,4 @@
-FROM frolvlad/alpine-python3
+FROM jeanblanchard/alpine-glibc
 MAINTAINER Thraxis
 
 # set version label
