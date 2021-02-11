@@ -38,6 +38,8 @@ RUN \
         git \
         libstdc++ \
         mesa-gl \
+        xdg-utils \
+        qt5-qtbase-x11 \
         py3-webencodings && \
 
  # build calibre
